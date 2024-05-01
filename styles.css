@@ -1,44 +1,76 @@
-/* table,td{
-    border: 2px solid rgb(140 140 140);
 
-} */
+ /*ปรับขนาดรูป*/
+img.picture_me {
+  clip-path: circle(120px);          
+  border-style: dotted;
+  /* border-radius: 120px; */
+  /* border-color: grey;  */
+  width: 300px;                     
+  height: 300px;
+  float: left;
+  /* shape-outside: circle(100%); */
+}
+
+h1 {
+  color: rgb(227, 20, 148);
+  shape-outside: circle(100%);
+}
+
+h3.linktra{
+  color: rgb(157, 165, 250);
+  shape-outside: circle(100%);
+}
+
+h3.work{
+  color: rgb(86, 71, 247);
+}
+
+h3.skill{
+  color: rgb(86, 71, 247);
+}
+
+h4.nickname{
+  color: rgb(92, 96, 137);
+  shape-outside: circle(100%);
+}
+
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    /* border: 2px solid rgb(140 140 140); */
     font-family: sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 1px;
-  }
+    background-color: rgb(242, 207, 239);
+  } 
   
   caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
-  }
+  } 
   
-  thead,
-  tfoot {
-    background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
-    text-align: center;
-  }
-  
-  tbody > tr:nth-of-type(even) {
-    background-color: rgb(237 238 242);
-  }
-  
-  tfoot th {
-    text-align: right;
-  }
-  
-  tfoot td {
-    font-weight: bold;
-  }
+  hr {
+    border-style: none; 
+    border-top-style: dotted;
+    border-color: grey;
+    border-width:5px;
+    width: 30%;
+  } 
+
+body{
+  background-color: rgb(242, 218, 253);
+}
+table.tablethree{
+  background-color: rgb(255, 215, 194);
+  width: 100%;
+
+}
+table.tabletwo{
+  background-color: rgb(194, 238, 255);
+  width: 100%;
+}
+
+table.tableone{
+  background-color: rgb(248, 247, 194);
+  width: 100%;
+}
